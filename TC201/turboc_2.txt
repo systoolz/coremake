@@ -1,0 +1,3 @@
+Download and install Borland Turbo C 2.01 here ("Turbo C 2.01 zip file" link):
+https://web.archive.org/web/20060614091700/http://bdn.borland.com/article/20841
+Check "buildall.bat" file to see this folder structure (BIN/INCLUDE/LIB).
