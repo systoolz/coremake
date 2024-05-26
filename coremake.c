@@ -191,7 +191,7 @@ fnt_data font;
     }
   }
   vga_fade(FADE_OUT);
-  if (res_read(res, "ANSI1SCR", MK_FP(0xB800,0), 80 * 25 * 2)) {
+  if (res_read(res, "ANSI1SCR", MK_FP(0xB800, 0), 80 * 25 * 2)) {
     vga_fade(FADE_IN);
     key = 0;
     l = tik_init(&t, 4);
@@ -307,7 +307,6 @@ fnt_data font;
     }
     vga_wait();
     vga_flip(&font, composite);
-    angle += angle_v;
     /* read first presseed key */
     key = (key_read(KEY_DROP) >> 8);
     /* only Escape (0x01), Enter (0x1C) or Space (0x39) allowed for exit */
@@ -329,7 +328,7 @@ fnt_data font;
   /* move cursor to screen bottom */
   for (key = 0; key < (25 - 3); key++) { puts(""); }
 #ifndef NO_ANSI
-  res_read(res, "ANSI2SCR", MK_FP(0xB800,0), 80 * 25 * 2);
+  res_read(res, "ANSI2SCR", MK_FP(0xB800, 0), 80 * 25 * 2);
   vga_hcur(HCUR_SHOW);
 #endif
   res_free(res);

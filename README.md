@@ -6,6 +6,8 @@ COREMAKE - **CORE'97** and **CORE'98** intros remake.
 
 This is **C.O.R.E** (Challenge of Reverse Engineering) intros [CORE'97](https://www.pouet.net/prod.php?which=84291) and [CORE'98](https://www.pouet.net/prod.php?which=70685) remake. This intros reverse engineered and remaked solely for fun and nostalgia. Most of the code disassembled from intros, but expect some slightly differences here and there compared to original behaviour. Greetings to everyone at CORE who did original intros almost 30 years ago!
 
+YouTube links for both intros for reference: [CORE'97](https://www.youtube.com/watch?v=cuh5Sd2YyME) and [CORE'98](https://www.youtube.com/watch?v=n7a6lhCUtms).
+
 **COREMAKE.EXE** - compiled COREMAKE intros with Borland Turbo C 2.01 on Compact Model, run this file with any commandline argument to start CORE'98 version (for example without double quotes: "COREMAKE.EXE 8"). This is MS-DOS application so DOS or VM like [DOSBox](https://www.dosbox.com/) required to run. For DOSBox increase cycles or animation will be too slow!
 
 **CORE.NFO** - optional minimal sized file to check CRC function, this file will work with original intros too.
